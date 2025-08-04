@@ -14,7 +14,7 @@ public class InteractiveOrderProcessor {
         boolean doubleEqualResult = firstStr==secondStr;
         System.out.print("String 1 == String 2: " + doubleEqualResult);
         if(doubleEqualResult){
-            System.out.print(" (Strings 1 and 2 point to the same memory location; same objects)");
+            System.out.println(" (Strings 1 and 2 point to the same memory location; same objects)");
         } else{
             System.out.println(" (Compares references, which are different for user input strings)");
         }
@@ -22,7 +22,7 @@ public class InteractiveOrderProcessor {
         boolean equalsResult = firstStr.equals(secondStr);
         System.out.print("String 1 .equals() String 2: " + equalsResult);
         if(equalsResult){
-            System.out.print(" (Strings 1 and 2 have the same content)");
+            System.out.println(" (Strings 1 and 2 have the same content)");
         } else{
             System.out.println(" (Content is different due to case or characters)");
         }
@@ -30,7 +30,7 @@ public class InteractiveOrderProcessor {
         boolean equalsIgnoreCaseResult = firstStr.equalsIgnoreCase(secondStr);
         System.out.print("String 1 .equalsIgnoreCase() String 2: " + equalsIgnoreCaseResult);
         if(equalsIgnoreCaseResult){
-            System.out.print(" (Content is identical, ignoring case)");
+            System.out.println(" (Content is identical, ignoring case)");
         } else{
             System.out.println(" (Content is not identical)");
         }
