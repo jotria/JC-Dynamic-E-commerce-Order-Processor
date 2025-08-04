@@ -56,7 +56,6 @@ public class InteractiveOrderProcessor {
         scanner.nextLine();
         if(!isMember){
             System.out.println("Only members can order.");
-            System.exit(1);
         } else{
             System.out.print("Enter customer tier (Regular, Silver, Gold): ");
             String customerTier = scanner.nextLine();
